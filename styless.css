@@ -1,0 +1,103 @@
+/* Body Styling */
+body {
+    background-color: #f3faf1; /* Light background color */
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"], input[type="email"], select {
+    background-color: #ffffff; /* White background */
+    border-color: #a6fc74; /* Light Green Border */
+}
+
+/* Dark Text Styling */
+.darktext {
+    color: #6b6b6b;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: none; /* Optional: underline on hover */
+}
+
+a:visited {
+    text-decoration: none; /* Remove underline for visited links */
+}
+
+/* Button Styling */
+button[type="submit"] {
+    background-color: #0b6e22; /* Green */
+    border-color: #28a745; /* Light Green Border */
+    color: #fff; /* White Text */
+}
+
+/* Login Button */
+.login {
+    background-color: #218838; /* Dark Green */
+    border-color: #1e7e34; /* Border color adjustment */
+    color: white; /* White Text */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.login:hover {
+    background-color: rgb(25, 112, 25); /* Darker Green on Hover */
+    border-color: #1b692d; /* Bootstrap success color */
+}
+
+/* Password Link Styling */
+.password {
+    color: #000000;
+    text-align: center;
+    transition: background-color 1.3s;
+}
+
+.password:hover {
+    color: rgb(228, 108, 108); /* Light Red on hover */
+}
+
+
+/* Link Colors */
+.yes {
+    color: rgb(51, 190, 51) !important; /* Green for register link */
+}
+
+.no {
+    color: rgb(207, 62, 62) !important; /* Red for forgot password */
+}
+
+/* Scanner Container */
+.scanner-con {
+    text-align: center;
+}
+
+.box{
+    width:800px;
+    max-width: 95%;
+}
+
+.hgreen{
+ color:  #2a9e43; 
+    transition: background-color 1.3s;
+}
+.hgreen:hover{
+    color: rgb(25, 112, 25); /* Darker Green on Hover */
+}
+
+/* QR Scanner Frame */
+#interactive {
+    border: 2px solid #1e7e34;
+    border-radius: 10px;
+    width: 550px;
+    max-width: 100%;
+}
+
+/* Responsive Modal for Small Screens */
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 1rem;
+        max-width: 100%;
+    }
+}
